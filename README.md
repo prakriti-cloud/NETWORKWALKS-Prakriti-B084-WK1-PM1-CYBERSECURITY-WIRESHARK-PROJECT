@@ -21,6 +21,8 @@ It can be used for activities such as:
 - Detect SYN flood DoS (tcp.flags.syn == 1 && tcp.flags.ack == 0)   
 - Extract cleartext credentials from FTP, HTTP Basic Auth, Telnet
 
+A total of 6 labs were provided and each of them contained 10 tasks.
+
 
 
 
