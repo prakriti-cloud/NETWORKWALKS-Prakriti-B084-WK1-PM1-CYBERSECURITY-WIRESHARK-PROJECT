@@ -25,7 +25,8 @@ A total of 6 labs were provided and each of them contained 10 tasks.
 
 **⚙️ Lab Results**  
 **Identify the Attacker's IP**  
-<img width="1080" height="1700" alt="Lab 3 Result - Prakriti Acharya" src="https://github.com/user-attachments/assets/adcd9f2a-9acb-4c31-8513-6469e3f03c79" />
+<img width="959" height="434" alt="Screenshot 2026-11-01 191654" src="https://github.com/user-attachments/assets/f48ea4f4-2688-4cb0-bdd7-ef043886120a" />
+
 
 **Summary**  
 In short, I learned the following details from this lab:  
@@ -35,7 +36,8 @@ In short, I learned the following details from this lab:
 - Attack type: Port scan
 
 **Follow TCP Stream 1**  
-<img width="1080" height="1700" alt="Lab 4 Result - Prakriti Acharya" src="https://github.com/user-attachments/assets/5f2cc390-959c-4c63-8351-4411eb0a9abb" />
+<img width="956" height="445" alt="Screenshot 2026-11-01 192016" src="https://github.com/user-attachments/assets/65d68996-580d-4b24-b97d-ae0a99857610" />
+
 
 **Summary**  
 I found the following details from the second lab:  
@@ -44,7 +46,8 @@ I found the following details from the second lab:
 - Lesson: use encrypted tools (TLS/HTTPS)
 
 **Follow TCP Stream, Part 2**  
-<img width="1080" height="1700" alt="Lab 5 Result - Prakriti Acharya" src="https://github.com/user-attachments/assets/d9a0ad36-2363-4bdf-9f05-6902e913e56c" />
+<img width="951" height="433" alt="Screenshot 2026-11-01 192232" src="https://github.com/user-attachments/assets/6527a9f8-5313-474d-bf84-0677d22e57f5" />
+
 
 **Summary**  
 The summary of what I learned in this lab is as follows:  
@@ -54,7 +57,8 @@ The summary of what I learned in this lab is as follows:
 - Lesson: never leave secrets in web pages
 
 **HTTP Plain Text Credentials**  
-<img width="1080" height="1700" alt="Lab 6 Result - Prakriti Acharya" src="https://github.com/user-attachments/assets/e6e7c20f-e7fb-411c-a79b-aec7eb98de4d" />
+<img width="950" height="439" alt="Screenshot 2026-11-01 192500" src="https://github.com/user-attachments/assets/62b8161c-9029-4d12-b005-06f034453460" />
+
 
 **Summary**  
 In conclusion, I attained the following information through this lab:  
@@ -64,7 +68,8 @@ In conclusion, I attained the following information through this lab:
 - Fix: use HTTPS
 
 **Catching Brute Force Attacker**  
-<img width="1080" height="1700" alt="Lab 7 Result - Prakriti Acharya" src="https://github.com/user-attachments/assets/7e56e3d7-666e-484c-8be8-f5fd0b6840e5" />
+<img width="956" height="435" alt="Screenshot 2026-11-01 192921" src="https://github.com/user-attachments/assets/d428e144-7f48-41eb-b6ba-6e9da2d66997" />
+
 
 **Summary**  
 I was able to gain the following information, in brief, from this lab:  
@@ -74,7 +79,8 @@ I was able to gain the following information, in brief, from this lab:
 - Fix: lock accounts after a few failures and use strong passwords
 
 **Catching the Call Scammer**  
-<img width="1080" height="1700" alt="Lab 8 Result - Prakriti Acharya" src="https://github.com/user-attachments/assets/3590302a-2b88-4151-9735-ad1139ad30a8" />
+<img width="949" height="440" alt="Screenshot 2026-11-01 193158" src="https://github.com/user-attachments/assets/f9c21454-1ee8-45e3-bd71-cabaad6f627e" />
+
 
 **Summary**  
 This lab, for me, was the most interesting and felt the most accomplishing. I was a bit confused about who made the call and what the caller extension was at first, since applying the filter showed only the caller extension 202. After navigating to the details of the call by double-clicking on the info, I was able to see who the call was from and who it was for. Additionally, I could hear two people actually talking on a call and could gather their card detail, and its expiry date of the card based on the conversation, due to which I felt a wave of accomplishment as well as encouragement to research more on this. Other details of the lab are mentioned below:  
