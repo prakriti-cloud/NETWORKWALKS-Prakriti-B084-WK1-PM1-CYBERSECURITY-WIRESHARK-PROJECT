@@ -29,8 +29,9 @@ A total of 6 labs were provided and each of them contained 10 tasks.
 
 **Summary**  
 In short, I learned the following details from this lab:  
-Attacker's IP Address: 192.168.10.66 · Target IP Address: web server 192.168.10.20
-Ports tried: 40 · Open: 22, 80, 443 · Closed: 37 (reply RST, ACK)
+Attacker's IP Address: 192.168.10.66  
+Target IP Address: web server 192.168.10.20  
+Ports tried: 40 · Open: 22, 80, 443 · Closed: 37 (reply RST, ACK)  
 Attack type: Port scan
 
 **Follow TCP Stream 1**  
@@ -38,8 +39,8 @@ Attack type: Port scan
 
 **Summary**  
 I found the following details from the second lab:  
-Chat: 192.168.10.45 to server 192.168.10.20, TCP port 5000, stream 5
-Shared in plain text: a temporary password and the guest Wi-Fi password
+Chat: 192.168.10.45 to server 192.168.10.20, TCP port 5000, stream 5  
+Shared in plain text: a temporary password and the guest Wi-Fi password  
 Lesson: use encrypted tools (TLS/HTTPS)
 
 **Follow TCP Stream, Part 2**  
@@ -47,9 +48,9 @@ Lesson: use encrypted tools (TLS/HTTPS)
 
 **Summary**  
 The summary of what I learned in this lab is as follows:  
-Page with the note: /staff.html (stream 7), status 200
-Hidden in an HTML comment: backup server 192.168.10.77, code word Falcon-9921
-File downloaded: report.txt, prepared by Nadia
+Page with the note: /staff.html (stream 7), status 200  
+Hidden in an HTML comment: backup server 192.168.10.77, code word Falcon-9921  
+File downloaded: report.txt, prepared by Nadia  
 Lesson: never leave secrets in web pages
 
 **HTTP Plain Text Credentials**  
@@ -57,9 +58,9 @@ Lesson: never leave secrets in web pages
 
 **Summary**  
 In conclusion, I attained the following information through this lab:  
-Protocol: HTTP (not encrypted), method POST to /login
-User farhan.k from 192.168.10.45 tried 2 logins: the first failed, the second worked
-Password sent in plain text: Mango#2026
+Protocol: HTTP (not encrypted), method POST to /login  
+User farhan.k from 192.168.10.45 tried 2 logins: the first failed, the second worked  
+Password sent in plain text: Mango#2026  
 Fix: use HTTPS
 
 **Catching Brute Force Attacker**  
@@ -67,9 +68,9 @@ Fix: use HTTPS
 
 **Summary**  
 I was able to gain the following information, in brief, from this lab:  
-Attacker: 192.168.10.66 against FTP server 192.168.10.20 (port 21)
-User admin: 24 failed logins (code 530), then success (code 230) with Sunshine99
-Attack type: brute force
+Attacker: 192.168.10.66 against FTP server 192.168.10.20 (port 21)  
+User admin: 24 failed logins (code 530), then success (code 230) with Sunshine99  
+Attack type: brute force  
 Fix: lock accounts after a few failures and use strong passwords
 
 **Catching the Call Scammer**  
@@ -77,9 +78,9 @@ Fix: lock accounts after a few failures and use strong passwords
 
 **Summary**  
 This lab, for me, was the most interesting and felt the most accomplishing. I was a bit confused about who made the call and what the caller extension was at first, since applying the filter showed only the caller extension 202. After navigating to the details of the call by double-clicking on the info, I was able to see who the call was from and who it was for. Additionally, I could hear two people actually talking on a call and could gather their card detail, and its expiry date of the card based on the conversation, due to which I felt a wave of accomplishment as well as encouragement to research more on this. Other details of the lab are mentioned below:  
-Call setup: SIP (INVITE, 180 Ringing, 200 OK, ACK, BYE). Voice: RTP, codec G.711 PCMU
-Caller: Ali Raza (extension 101). Answered by: Sara (extension 202)
-Spoken in clear: card number ending 2394, expiry 09/28
+Call setup: SIP (INVITE, 180 Ringing, 200 OK, ACK, BYE). Voice: RTP, codec G.711 PCMU  
+Caller: Ali Raza (extension 101). Answered by: Sara (extension 202)  
+Spoken in clear: card number ending 2394, expiry 09/28  
 Fix: encrypt calls with SRTP (and use TLS for SIP)
 
 **Conclusion**  
