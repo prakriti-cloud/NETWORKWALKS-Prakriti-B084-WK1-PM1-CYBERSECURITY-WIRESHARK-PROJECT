@@ -1,34 +1,26 @@
 **WIRESHARK LABS**  
-This repository consists of Week 1 Project of cybersecurity lab setup
-
+This repository consists of Week 1 Wireshark Lab Modules Documentation
 📌 Project Overview  
-This project focuses on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
-
-The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
-
-The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
+This project focuses on completing the 6 labs of Wireshark which is an extra project of Week 1.
 
 🎯 Objectives  
-The main objectives of this project are to:
-
-Install and configure VirtualBox.
-Install/import Kali Linux as a virtual machine.
-Create a private NAT Network for the cybersecurity lab.
-Configure network connectivity for Kali Linux.
-Assign a consistent IP address to the Kali VM.
-Verify network connectivity and DNS resolution.
-Take a clean VM snapshot for recovery.
-Document the complete setup process.
-Prepare the environment for future cybersecurity projects.
+The main objectives of this project are to:  
+- Learn to detect suspicious activities in the packets.
+- Find an attacker's IP Address.
+- Become familiar with various protocols.
+- Catch the Brute Force Attack.
+- Investigate the captured packets, play the audio call and identify the scammer.
+- Find usernames and passwords sent in clear text over HTTP.
+- Learn the impact of using weak protocols such as HTTP over HTTPS.
 
 🛡️ Purpose of the Lab  
-The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
+The lab provides an isolated and controlled environment for capturing packets and investigating them.
 
 It can be used for activities such as:  
-- Network reconnaissance  
-- Port scanning  
-- Vulnerability assessment  
-- Packet analysis  
-- Web security testing  
-- Exploitation practice  
-- Security-tool experimentation
+- Capture attacker IP/MAC addresses from SYN scan and port scan traffic  
+- Detect SYN flood DoS (tcp.flags.syn == 1 && tcp.flags.ack == 0)   
+- Extract cleartext credentials from FTP, HTTP Basic Auth, Telnet
+
+
+
+
